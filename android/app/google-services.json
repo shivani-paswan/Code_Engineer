@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "921953611599",
+    "project_id": "codeengineer-6441b",
+    "storage_bucket": "codeengineer-6441b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921953611599:android:a7cad1e00dfa6c25435f3a",
+        "android_client_info": {
+          "package_name": "com.example.code_engineer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921953611599-ueip1g8rbsoone5ah8a3uo7nocn4608m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqmfnKiJJAAAMim1BvTpoogFF023oRiUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921953611599-ueip1g8rbsoone5ah8a3uo7nocn4608m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
