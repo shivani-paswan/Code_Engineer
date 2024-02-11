@@ -2,7 +2,6 @@ import 'package:code_engineer/ProfilePages/ContactUs/Contact.dart';
 import 'package:code_engineer/ProfilePages/Membership/Membership.dart';
 import 'package:code_engineer/ProfilePages/Policy/Policy.dart';
 import 'package:code_engineer/ProfilePages/TermConditions/TermCondition.dart';
-import 'package:code_engineer/auth/LoginScreen.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 

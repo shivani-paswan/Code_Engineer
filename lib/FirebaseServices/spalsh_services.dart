@@ -1,9 +1,9 @@
 import 'dart:async';
 
+import 'package:code_engineer/AuthenticatedScreens/LoginScreen.dart';
 import 'package:code_engineer/BottomNavigationScreens/BottomNavigationHandler.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:code_engineer/auth/LoginScreen.dart';
 
 class SplashServices {
   isLogin(BuildContext context) {

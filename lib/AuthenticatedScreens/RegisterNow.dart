@@ -2,8 +2,9 @@ import 'dart:async';
 
 import 'package:code_engineer/BottomNavigationScreens/Home/Home.dart';
 import 'package:code_engineer/BottomNavigationScreens/BottomNavigationHandler.dart';
-import 'package:code_engineer/auth/LoginScreen.dart';
-import 'package:code_engineer/utils/utils.dart';
+import 'package:code_engineer/AuthenticatedScreens/LoginScreen.dart';
+import 'package:code_engineer/Utiles/utils.dart';
+import 'package:code_engineer/common/colors.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -35,9 +36,9 @@ class _RegisterNowState extends State<RegisterNow> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: CommonColors.themeColor,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: CommonColors.themeColor,
         automaticallyImplyLeading: true,
       ),
       body: Container(

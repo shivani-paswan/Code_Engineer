@@ -1,6 +1,5 @@
 import 'package:code_engineer/BottomNavigationScreens/BottomNavigationHandler.dart';
 import 'package:code_engineer/SplashScreen.dart';
-import 'package:code_engineer/auth/LoginScreen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 

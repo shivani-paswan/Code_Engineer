@@ -1,3 +1,4 @@
+import 'package:code_engineer/Common/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-          backgroundColor: Colors.black,
+          backgroundColor: CommonColors.themeColor,
           leading: IconButton(
             icon: Image.asset("assets/images/menu.png",
                 height: 25, color: Colors.white),
@@ -41,7 +42,7 @@ class _HomeState extends State<Home> {
           ]),
       drawer: Drawer(
         // backgroundColor:Color.fromRGBO(128, 128, 128,1),
-        backgroundColor: Colors.black,
+        backgroundColor: CommonColors.themeColor,
         child: ListView(
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.only(
@@ -58,7 +59,7 @@ class _HomeState extends State<Home> {
                 )),
                 child: DrawerHeader(
                   decoration: BoxDecoration(
-                    color: Colors.black,
+                    color: CommonColors.themeColor,
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.start,
@@ -191,7 +192,7 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
-      backgroundColor: Colors.black,
+      backgroundColor: CommonColors.themeColor,
       body: SafeArea(
         child: Container(
           padding: EdgeInsets.all(10),
@@ -388,7 +389,10 @@ class _HomeState extends State<Home> {
                         child: Container(
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
-                              colors: [Colors.black, Colors.black],
+                              colors: [
+                                CommonColors.themeColor,
+                                CommonColors.themeColor
+                              ],
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                             ),
@@ -396,7 +400,7 @@ class _HomeState extends State<Home> {
                             color: Color.fromRGBO(0, 0, 0, 0.6),
                             // colocr: Colors.white
                           ),
-                          child: Center(
+                          child: const Center(
                             child: Text(
                               'REACT JS',
                               style: TextStyle(
@@ -410,9 +414,9 @@ class _HomeState extends State<Home> {
                     ),
                     Flexible(
                       child: Container(
-                        margin: EdgeInsets.only(right: 5, left: 5),
+                        margin: const EdgeInsets.only(right: 5, left: 5),
                         height: 90,
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.all(Radius.circular(10)),
                           image: DecorationImage(
@@ -422,7 +426,10 @@ class _HomeState extends State<Home> {
                         child: Container(
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
-                              colors: [Colors.black, Colors.black],
+                              colors: [
+                                CommonColors.themeColor,
+                                CommonColors.themeColor
+                              ],
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                             ),
@@ -464,7 +471,10 @@ class _HomeState extends State<Home> {
                         child: Container(
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
-                              colors: [Colors.black, Colors.black],
+                              colors: [
+                                CommonColors.themeColor,
+                                CommonColors.themeColor
+                              ],
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                             ),
@@ -498,7 +508,10 @@ class _HomeState extends State<Home> {
                         child: Container(
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
-                              colors: [Colors.black, Colors.black],
+                              colors: [
+                                CommonColors.themeColor,
+                                CommonColors.themeColor
+                              ],
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                             ),
@@ -540,7 +553,10 @@ class _HomeState extends State<Home> {
                         child: Container(
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
-                              colors: [Colors.black, Colors.black],
+                              colors: [
+                                CommonColors.themeColor,
+                                CommonColors.themeColor
+                              ],
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                             ),
@@ -574,7 +590,10 @@ class _HomeState extends State<Home> {
                         child: Container(
                           decoration: BoxDecoration(
                             gradient: LinearGradient(
-                              colors: [Colors.black, Colors.black],
+                              colors: [
+                                CommonColors.themeColor,
+                                CommonColors.themeColor
+                              ],
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                             ),
