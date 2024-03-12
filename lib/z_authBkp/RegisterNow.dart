@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:code_engineer/AuthenticatedScreens/LoginScreen.dart';
 import 'package:code_engineer/BottomNavigationScreens/Home/Home.dart';
 import 'package:code_engineer/BottomNavigationScreens/BottomNavigationHandler.dart';
-import 'package:code_engineer/utils/utils.dart';
+import 'package:code_engineer/Utiles/utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

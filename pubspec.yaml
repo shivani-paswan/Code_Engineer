@@ -41,6 +41,7 @@ dependencies:
   fluttertoast: ^8.2.1
   splash_screen_view: ^3.0.0
   animated_splash_screen: ^1.3.0
+  http: ^1.2.0
 
 
 dev_dependencies:
